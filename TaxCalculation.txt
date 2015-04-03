@@ -1,0 +1,33 @@
+Derick Warshaw // Lab 3 // COSC1337
+
+Problem: Write a program that calculates property taxes. Print values entered by user in the console for verification.
+Then, display all input values, total tax, and average tax per acre.
+Inputs: total acres, tax rate, appraised value
+Outputs: total acres, tax rate, appraised value, total tax, average tax per acre
+Formulas: total tax = tax rate * appraised value, average tax per acre = total tax / total acres
+
+start processing
+INPUT total acres
+IF total acres is less than 1
+	DISPLAY error message
+END-IF
+INPUT tax rate
+IF total acres is less than 0
+	DISPLAY error message
+END-IF
+INPUT appraised value
+IF total acres is less than 0
+	DISPLAY error message
+END-IF
+DISPLAY total acres
+DISPLAY tax rate
+DISPLAY appraised value
+CALCULATE total tax
+CALCULATE average tax per acre
+DISPLAY total acres
+DISPLAY tax rate
+DISPLAY appraised value
+DISPLAY total tax
+DISPLAY average tax per acre
+stop processing
+
